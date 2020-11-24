@@ -1,7 +1,7 @@
 # Dreamers
 Learning fundamentals !
 
-## Teacher
+## Teachers
 - George
 
 ## Students
