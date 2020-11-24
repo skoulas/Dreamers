@@ -2,6 +2,7 @@
 Learning fundamentals !
 
 ## Students
-Alexandra
-Foteinos
-Johannes
+- Alexandra
+- Foteinos
+- Johannes
+- George
