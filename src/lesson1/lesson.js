@@ -16,5 +16,24 @@
   }
 
   console.log(mutualFollowers);
+
+  // Exercise 2
+
+  let fotisAge = 33;
+
+  if (fotisAge == 33) {
+    console.log('Fotis is 33');
+  }
+
+  fotisAge = '33';
+
+  if (fotisAge == 33 ) {
+    console.log('Fotis is still 33');
+  }
+
+  if (fotisAge === 33) {
+    console.log('OMG Fotis is not 33');
+  }
+
+
 })();
-  'apla geloios'
