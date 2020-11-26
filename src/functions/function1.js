@@ -1,30 +1,32 @@
-(function() {
-  // JavaScript functions behave like any other data type in the language;
-  // we can assign functions to variables, and we can reassign them to new variables.
-  function sayHi(message) {
-    console.log("Coming from sayHi? " + message);
+// JavaScript functions behave like any other data type in the language;
+// we can assign functions to variables, and we can reassign them to new variables.
+function sayHi(message) {
+  console.log("Coming from sayHi? " + message);
+}
+
+const geiaSou = sayHi;
+const sageHallo = geiaSou;
+
+sageHallo("  Hallo  ");
+sayHi("Geia Sou");
+geiaSou(" Hi ");
+console.log(geiaSou);
+
+function multiplyGenerator(multiplier) {
+
+  console.log("The multiplier is --> ", multiplier);
+
+  function multiplierFunction(numberToMultiply) {
+    console.log("The numberToMultiply is --> ", numberToMultiply);
+    return multiplier * numberToMultiply;
   }
 
-  const geiaSou = sayHi;
-  const sageHallo = geiaSou;
+  return multiplierFunction;
+}
 
-  sageHallo("  Hallo  ");
-  sayHi("Geia Sou");
-  geiaSou(" Hi ");
+const multiplyWithFive = multiplyGenerator(5);
 
-  function multiplyGenerator(multiplier) {
+console.log(multiplyWithFive(8));
 
-    console.log("The multiplier is --> ", multiplier);
-
-    function multiplierFunction(numberToMultiply) {
-      console.log("The numberToMultiply is --> ", numberToMultiply);
-      return multiplier * numberToMultiply;
-    }
-
-    return multiplierFunction;
-  }
-
-  const multiplyWithFive = multiplyGenerator(5);
-
-  console.log(multiplyWithFive(8));
-})();
+// TODO
+// create a function that generates
