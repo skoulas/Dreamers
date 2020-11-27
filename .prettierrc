@@ -9,5 +9,5 @@
     "source.fixAll.eslint": true
   },
   "endOfLine": "lf",
-   "singleQuote": true
+  "singleQuote": true
 }
