@@ -1,3 +1,4 @@
-// export * from './function1.js'
-// export * from "./arrowFunctions.js";
-export * from "./playground.js";
+// export * from './basics.js'
+// export * from "./arrow-functions.js";
+// export * from "./high-order-functions.js";
+// export * from "./playground.js";
