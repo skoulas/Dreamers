@@ -1,0 +1,19 @@
+{
+  "name": "dreamers",
+  "version": "1.0.0",
+  "description": "Dreamers project",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skoulas/Dreamers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skoulas/Dreamers/issues"
+  },
+  "homepage": "https://github.com/skoulas/Dreamers#readme"
+}
