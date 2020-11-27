@@ -10,3 +10,7 @@ example1.forEach((element) => {
 });
 
 console.log(example1);
+
+// Todo
+// Na ginetai console me Result --> 1os einai Fotis, 2os einai Alexandra ...
+const people = ['Fotis', 'Alexandra', 'Giannis', 'Aggelos', 'Georgios'];
