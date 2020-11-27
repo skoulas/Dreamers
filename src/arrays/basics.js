@@ -5,9 +5,9 @@ example1.pop(); // removes last here is 10
 
 example1[0] = 1; // instead of 5 is 1
 
-example1.forEach((element, i) => {
-  console.log(element, i);
-});
+// example1.forEach((element, i) => {
+//   console.log(element, i);
+// });
 
 // Challenge 1
 // Given a list ['A', 'B', 'C']; write commands so the list becomes ['A', 'D', 'C']
@@ -15,7 +15,10 @@ example1.forEach((element, i) => {
 // Challenge 2
 // Na ginetai console me Result --> 1os einai Fotis, 2os einai Alexandra kok
 const people = ['Fotis', 'Alexandra', 'Giannis', 'Aggelos', 'Georgios'];
-console.log(people);
+
+for (let i = 0; i < people.length; i += 1) {
+  console.log(`${i + 1}os einai ${people[i]}`);
+}
 
 // Challenge 3 - Manage Inventory
 
