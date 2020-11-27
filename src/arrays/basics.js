@@ -16,11 +16,13 @@ example1[0] = 1; // instead of 5 is 1
 // Na ginetai console me Result --> 1os einai Fotis, 2os einai Alexandra kok
 const people = ['Fotis', 'Alexandra', 'Giannis', 'Aggelos', 'Georgios'];
 
-for (let i = 0; i < people.length; i += 1) {
-  console.log(`${i + 1}os einai ${people[i]}`);
-}
+// Challenge 3
+// Na brethoun oi koinoi followers;
 
-// Challenge 3 - Manage Inventory
+const fotisFollowers = ['Fotis', 'Alexandra', 'Giannis', 'Aggelos', 'Georgios'];
+const giannisFollowers = ['Kitsos', 'Periklis', 'Fotis', 'Georgios'];
+
+// Challenge 4 - Manage Inventory
 
 /*
   1. Your company is launching 3 new products:
