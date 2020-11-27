@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/skoulas/Dreamers/issues"
   },
-  "homepage": "https://github.com/skoulas/Dreamers#readme"
+  "homepage": "https://github.com/skoulas/Dreamers#readme",
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
 }

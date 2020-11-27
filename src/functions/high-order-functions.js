@@ -1,10 +1,10 @@
 // functions that return other functions
 
 function multiplyGenerator(multiplier) {
-  console.log("The multiplier is --> ", multiplier);
+  console.log('The multiplier is --> ', multiplier);
 
   function multiplierFunction(numberToMultiply) {
-    console.log("The numberToMultiply is --> ", numberToMultiply);
+    console.log('The numberToMultiply is --> ', numberToMultiply);
     return multiplier * numberToMultiply;
   }
 
