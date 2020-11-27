@@ -1,1 +1,2 @@
-import "./src/functions/index.js";
+import './src/basics/index.js';
+import './src/functions/index.js';
