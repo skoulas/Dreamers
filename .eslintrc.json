@@ -11,8 +11,9 @@
         "sourceType": "module"
     },
     "rules": {
-      "no-console": "off",
+      "no-console": "warn",
       "prefer-template": "warn",
-      "import/extensions": "never"
+      "quotes": "warn",
+      "import/extensions": "warn"
     }
 }

@@ -4,7 +4,7 @@
   "description": "Dreamers project",
   "main": "app.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "jest test"
   },
   "repository": {
     "type": "git",
