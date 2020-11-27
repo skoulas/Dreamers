@@ -22,7 +22,7 @@ function greet(name) {
   if (name) {
     console.log(`You have given me the name ${name} bravo`);
   } else {
-    console.log("Please give me a name");
+    console.log('Please give me a name');
   }
 }
 
