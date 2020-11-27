@@ -15,6 +15,12 @@
         "sourceType": "module"
     },
     "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true
+        }
+      ],
       "no-console": "warn",
       "prefer-template": "warn",
       "quotes": "warn",
