@@ -1,4 +1,8 @@
 {
+  "editor.fontSize": 12,
+  "editor.formatOnSave": true,
+  "explorer.confirmDragAndDrop": true,
+  "editor.tabSize": 2,
   "eslint.codeAction.showDocumentation": {
     "enable": true
   }
