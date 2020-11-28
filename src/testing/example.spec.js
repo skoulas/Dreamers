@@ -1,4 +1,4 @@
-const isPersonAdult = require('./example');
+import { isPersonAdult } from './example';
 
 describe('isPersonAdult function', () => {
   test('it should return true if the personAge is adult', () => {

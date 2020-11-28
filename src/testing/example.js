@@ -1,3 +1,3 @@
 function isPersonAdult() {}
 
-module.exports = isPersonAdult;
+export default isPersonAdult;

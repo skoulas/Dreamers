@@ -1,2 +1,2 @@
-// export * from './string_numbers.js';
-// export * from './booleans.js';
+// export * from './string_numbers';
+// export * from './booleans';
