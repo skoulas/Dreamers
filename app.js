@@ -1,3 +1,4 @@
-import './src/basics/index.js';
-import './src/arrays/index.js';
-import './src/functions/index.js';
+import './src/testing/index';
+import './src/basics/index';
+import './src/arrays/index';
+import './src/functions/index';

@@ -1,1 +1,1 @@
-export * from './basics.js';
+export * from './basics';
