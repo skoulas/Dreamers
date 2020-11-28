@@ -1,7 +1,3 @@
-function sum(a, b) {
-  return a + b + 2;
-}
+function isPersonAdult() {}
 
-const addition = sum(1, 2); // 3
-
-console.log(addition);
+module.exports = isPersonAdult;
