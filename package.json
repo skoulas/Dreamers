@@ -17,7 +17,8 @@
     "test": "jest",
     "ping": "ping www.google.com",
     "fotis": "echo fotis",
-    "giannis": "echo giannis"
+    "giannis": "echo giannis",
+    "alexandra": "echo alexandra"
   },
   "devDependencies": {
     "eslint": "^7.14.0",
