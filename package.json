@@ -3,22 +3,32 @@
   "version": "1.0.0",
   "description": "Dreamers project",
   "main": "app.js",
-  "scripts": {
-    "test": "jest test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/skoulas/Dreamers.git"
-  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/skoulas/Dreamers/issues"
   },
   "homepage": "https://github.com/skoulas/Dreamers#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skoulas/Dreamers.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "eslint": "^7.14.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
+    "jest": "^26.6.3",
+    "pretty-quick": "^3.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
