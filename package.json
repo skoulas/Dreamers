@@ -14,7 +14,8 @@
     "url": "git+https://github.com/skoulas/Dreamers.git"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "ping": "ping www.google.com"
   },
   "devDependencies": {
     "eslint": "^7.14.0",
