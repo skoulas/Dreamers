@@ -17,6 +17,7 @@
         "singleQuote": true
       }
     ],
+    "import/prefer-default-export": "off",
     "no-console": "warn",
     "prefer-template": "warn",
     "quotes": "warn",

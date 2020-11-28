@@ -1,3 +1,1 @@
-function isPersonAdult() {}
-
-export default isPersonAdult;
+export function isPersonAdult() {}
