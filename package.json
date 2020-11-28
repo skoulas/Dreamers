@@ -16,7 +16,8 @@
   "scripts": {
     "test": "jest",
     "ping": "ping www.google.com",
-    "fotis": "echo fotis"
+    "fotis": "echo fotis",
+    "giannis": "echo giannis"
   },
   "devDependencies": {
     "eslint": "^7.14.0",
