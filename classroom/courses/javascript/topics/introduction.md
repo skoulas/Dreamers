@@ -4,7 +4,6 @@ Table of Contents
 
 - [Introduction](#introduction)
   - [console.log()](#consolelog)
-  - [Data Instances](#data-instances)
   - [Variables](#variables)
   - [Declaring Variables](#declaring-variables)
   - [let Keyword](#let-keyword)
@@ -37,10 +36,6 @@ The console.log() method is used to log or print messages to the console. It can
 // Prints: Hi there!
 console.log('Hi there!');
 ```
-
-## Data Instances
-
-When a new piece of data is introduced into a JavaScript program, the program keeps track of it in an instance of that data type. An instance is an individual case of a data type.
 
 ## Variables
 
