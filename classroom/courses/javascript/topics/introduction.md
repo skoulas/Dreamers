@@ -9,11 +9,11 @@ Table of Contents
   - [let Keyword](#let-keyword)
   - [const Keyword](#const-keyword)
   - [Numbers](#numbers)
-  - [String .length](#string-length)
   - [Booleans](#booleans)
   - [Strings](#strings)
   - [Null](#null)
   - [Undefined](#undefined)
+  - [String .length](#string-length)
   - [String Concatenation](#string-concatenation)
   - [String Interpolation / Template Literals](#string-interpolation--template-literals)
   - [Arithmetic Operators](#arithmetic-operators)
@@ -95,19 +95,6 @@ let amount = 6;
 let price = 4.99;
 ```
 
-## String .length
-
-The .length property of a string returns the number of characters that make up the string.
-
-```javascript
-let message = 'good nite';
-console.log(message.length);
-// Prints: 9
-
-console.log('howdy'.length);
-// Prints: 5
-```
-
 ## Booleans
 
 Booleans are a primitive data type. They can be either true or false.
@@ -142,6 +129,19 @@ var a;
 
 console.log(a);
 // Prints: undefined
+```
+
+## String .length
+
+The .length property of a string returns the number of characters that make up the string.
+
+```javascript
+let message = 'good nite';
+console.log(message.length);
+// Prints: 9
+
+console.log('howdy'.length);
+// Prints: 5
 ```
 
 ## String Concatenation
