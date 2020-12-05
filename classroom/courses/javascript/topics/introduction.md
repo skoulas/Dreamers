@@ -1,5 +1,32 @@
 # Introduction
 
+Table of Contents
+
+- [Introduction](#introduction)
+  - [console.log()](#consolelog)
+  - [Data Instances](#data-instances)
+  - [Variables](#variables)
+  - [Declaring Variables](#declaring-variables)
+  - [let Keyword](#let-keyword)
+  - [const Keyword](#const-keyword)
+  - [Numbers](#numbers)
+  - [String .length](#string-length)
+  - [Booleans](#booleans)
+  - [Strings](#strings)
+  - [Null](#null)
+  - [Undefined](#undefined)
+  - [String Concatenation](#string-concatenation)
+  - [String Interpolation / Template Literals](#string-interpolation--template-literals)
+  - [Arithmetic Operators](#arithmetic-operators)
+  - [Remainder / Modulo Operator](#remainder--modulo-operator)
+  - [Assignment Operators](#assignment-operators)
+  - [Single Line Comments](#single-line-comments)
+  - [Multi-line Comments](#multi-line-comments)
+  - [Math.random()](#mathrandom)
+  - [Math.floor()](#mathfloor)
+  - [Methods](#methods)
+  - [Libraries](#libraries)
+
 JavaScript is a programming language that powers the dynamic behavior on most websites. Alongside HTML and CSS, it is a core technology that makes the web run.
 
 ## console.log()
