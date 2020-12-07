@@ -109,7 +109,7 @@ Strings are a primitive data type. They are any grouping of characters (letters,
 
 ```javascript
 let single = 'Wheres my bandit hat?';
-let double = 'Wheres my bandit hat?';
+let double = "Wheres my bandit hat?";
 ```
 
 ## Null
