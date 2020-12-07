@@ -61,3 +61,24 @@ console.log(isPersonAdult2(16), isPersonAdult2(18)); // false, false
 ```
 
 ## Scope
+
+const and let are block scoped variables, meaning they are only accessible in their block or nested blocks
+
+you cannot declare first let and then var
+
+```javascript
+if (true) {
+  let a = 1;
+  if (true) {
+    var a = 2;
+  }
+}
+//     var a = 2;
+//         ^
+
+// SyntaxError: Identifier 'a' has already been declared
+```
+
+var has function scope and is hoisted.
+
+let and const are not hoisted.
