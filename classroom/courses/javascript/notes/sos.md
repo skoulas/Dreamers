@@ -60,6 +60,10 @@ console.log(isPersonAdult(16), isPersonAdult(18)); // false , true
 console.log(isPersonAdult2(16), isPersonAdult2(18)); // false, false
 ```
 
+## Functions
+
+Arrow functions are a compact alternative to a regular function, but also without its own bindings to <b>this</b>, <b>arguments</b>, <b>super</b> or <b>new.target</b> keywords. Arrow functions cannot be used as constructors and are not the best option for methods.
+
 ## Scope
 
 const and let are block scoped variables, meaning they are only accessible in their block or nested blocks
