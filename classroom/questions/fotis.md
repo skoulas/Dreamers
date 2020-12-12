@@ -8,3 +8,9 @@
 ## Lexical Environment
 
 - Difference between function declaration and function expression.
+
+Who let the dogs out????
+
+- Who ;
+- Who ;
+- Who ;
