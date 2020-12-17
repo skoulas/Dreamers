@@ -1,10 +1,12 @@
 # Revisit Questions
 
-//QUESTION AT 12.15.2020
+## QUESTION AT 12.15.2020
 
+```javascript
 // using this array,
-// var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+var array2 = ['Banana', ['Apples', ['Oranges'], 'Blueberries']];
 // access "Oranges".
+```
 
 array2[1][1][0];
 
