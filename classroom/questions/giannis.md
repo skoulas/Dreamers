@@ -7,4 +7,4 @@
 
 ## Template Literals
 
-- Do template literals coers functions?
+- Do template literals coerce functions?
