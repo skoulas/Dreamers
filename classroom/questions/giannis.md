@@ -4,3 +4,7 @@
 
 - What is the purpose of an IIFE?
 - What is module scope?
+
+## Template Literals
+
+- Do template literals coers functions?
