@@ -61,7 +61,7 @@ const data = [
 
 // write your code below
 
-const processedData[0] = ['Gold', '#FFD700']; // first line
+console.log(processedData[0]); // should log:  ['Gold', '#FFD700'];
 ```
 
 ### Exercise 3
