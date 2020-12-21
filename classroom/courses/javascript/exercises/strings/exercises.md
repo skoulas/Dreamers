@@ -7,6 +7,7 @@
     - [Exercise 2](#exercise-2)
     - [Exercise 3](#exercise-3)
   - [.join()](#join)
+    - [Exercise 1](#exercise-1-1)
 
 ## .split()
 
@@ -76,6 +77,8 @@ console.log(areaCode); // should log 555 (number)
 ```
 
 ## .join()
+
+### Exercise 1
 
 ```javascript
 const elements = ['Fire', 'Air', 'Water'];
