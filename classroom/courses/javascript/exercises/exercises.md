@@ -2,12 +2,9 @@
 
 - [Exercises](#exercises)
   - [Arrays Basics](#arrays-basics)
-  - [Function Basics](#function-basics)
   - [Scope](#scope)
-  - [Object Basics](#object-basics)
   - [Hard](#hard)
   - [Extra Hard](#extra-hard)
-  - [High Order Functions](#high-order-functions)
   - [Fun Part](#fun-part)
     - [We are Illuminati](#we-are-illuminati)
 
@@ -22,53 +19,6 @@ const fb = [];
 // ADD CODE HERE
 
 }
-```
-
-## Function Basics
-
-After running the below code what will be displayed in the console.log / terminal?
-
-```javascript
-function sayHello(s) {
-  return 'Hi, ' + s;
-}
-
-console.log(sayHello); // should log:
-console.log(sayHello()); // should log:
-console.log(sayHello(3)); // should log:
-console.log(sayHello('null')); // should log:
-```
-
-```javascript
-const satellite = 'The Moon';
-const galaxy = 'The Milky Way';
-let stars = 'North Star';
-
-const callMyNightSky = () => {
-  stars = 'Sirius';
-
-  return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
-};
-
-console.log(callMyNightSky()); // should log:
-
-console.log(stars); // should log:
-```
-
-```javascript
-const isOdd = (num) => !!(num % 2);
-
-console.log(isOdd(5)); // should log:
-console.log(isOdd(2008)); // should log:
-```
-
-```javascript
-function addN(arr, n) {
-  return arr.map((i) => i + n);
-}
-
-console.log(addN([1, 2, 3], 3)); // should return:
-console.log(addN([3, 4, 5], 2)); // should return:
 ```
 
 ## Scope
@@ -133,46 +83,6 @@ if (true) {
   console.log(a);
 }
 console.log(a);
-```
-
-## Object Basics
-
-GreenEnergy ships have fuel type avocado oil
-Ships that have disabled property true are remotely disabled.
-
-```javascript
-let spaceship = {
-  'Fuel Type': 'Turbo Fuel',
-  homePlanet: 'Earth',
-};
-
-function greenEnergy(sp) {
-  // add code here
-}
-
-function remotelyDisable(sp) {
-  // add code here
-}
-
-greenEnergy(spaceship);
-remotelyDisable(spaceship);
-
-console.log(spaceship);
-```
-
-Create a function findWaldo that accepts an object and returns the value associated with the key 'Waldo'. If the key 'Waldo' is not found, the function should return 'Where's Waldo?'
-
-```javascript
-// ADD CODE HERE
-
-const DC = { Bruce: 'Wayne', Harley: 'Quinn' };
-const supernatural = {
-  Sam: 'Winchester',
-  Dean: 'Winchester',
-  Waldo: 'unknown',
-};
-console.log(findWaldo(DC)); // should log: 'Where's Waldo?'
-console.log(findWaldo(supernatural)); // should log: 'unknown'
 ```
 
 ## Hard
@@ -294,62 +204,6 @@ console.log(disemvowel('BANANA')); // => 'BNN'
 console.log(disemvowel('hello world')); // => 'hll wrld'
 ```
 
-## High Order Functions
-
-1. Can you explain what the below code does?
-2. Can you explain why we created the below functions?
-3. Convert it to es6 syntax!
-
-```javascript
-// ES5 version
-var characters = [
-  {
-    name: 'Luke Skywalker',
-    img: 'http://example.com/img/luke.jpg',
-    species: 'human',
-  },
-  { name: 'Han Solo', img: 'http://example.com/img/han.jpg', species: 'human' },
-  {
-    name: 'Leia Organa',
-    img: 'http://example.com/img/leia.jpg',
-    species: 'human',
-  },
-  {
-    name: 'Chewbacca',
-    img: 'http://example.com/img/chewie.jpg',
-    species: 'wookie',
-  },
-];
-
-var humans = function (data) {
-  return data.filter(function (character) {
-    return character.species === 'human';
-  });
-};
-
-var images = function (data) {
-  return data.map(function (character) {
-    return character.img;
-  });
-};
-
-function compose(func1, func2) {
-  return function (data) {
-    return func2(func1(data));
-  };
-}
-
-var displayCharacterImages = compose(humans, images);
-
-console.log(displayCharacterImages(characters));
-/* Logs out the following array
-   [ "http://example.com/img/luke.jpg",
-     "http://example.com/img/han.jpg",
-     "http://example.com/img/leia.jpg"
-   ]
-*/
-```
-
 ## Fun Part
 
 ### We are Illuminati
@@ -379,8 +233,4 @@ const alphabet = 'abcdefghijklmnopqrstuvwz';
 // what if those numbers translate in something else?
 
 console.log(secretMessage);
-```
-
-```
-
 ```
