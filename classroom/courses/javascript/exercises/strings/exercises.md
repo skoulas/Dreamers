@@ -10,6 +10,8 @@
     - [Exercise 1](#exercise-1-1)
   - [Problems](#problems)
     - [Exercise 1](#exercise-1-2)
+    - [Exercise 2](#exercise-2-1)
+    - [Exercise 3](#exercise-3-1)
 
 ## .split()
 
@@ -112,6 +114,41 @@ function vowelsAndConsonants(s) {
 }
 ```
 
-```javascript
+### Exercise 2
 
+For a string sequence, a string word is k-repeating if word concatenated k times is a substring of sequence. The word's maximum k-repeating value is the highest value k where word is k-repeating in sequence. If word is not a substring of sequence, word's maximum k-repeating value is 0.
+
+Given strings sequence and word, return the maximum k-repeating value of word in sequence.
+
+```javascript
+/**
+ * @param {string} sequence
+ * @param {string} word
+ * @return {number}
+ */
+function maxRepeating(sequence, word) {
+  // Add Code below
+}
+
+// for sequence = "ababc", word = "ab" --> result = 2
+// for sequence = "ababc", word = "ba" --> result = 1
+```
+
+### Exercise 3
+
+You own a Goal Parser that can interpret a string command. The command consists of an alphabet of "G", "()" and/or "(al)" in some order. The Goal Parser will interpret "G" as the string "G", "()" as the string "o", and "(al)" as the string "al". The interpreted strings are then concatenated in the original order.
+
+Given the string command, return the Goal Parser's interpretation of command.
+
+```javascript
+/**
+ * @param {string} command
+ * @return {string}
+ */
+function interpret(command) {
+  // Add Code below
+}
+
+// command = "G()()()()(al)"
+// returns "Gooooal"
 ```
