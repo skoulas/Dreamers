@@ -8,6 +8,7 @@
   - [Exercises](#exercises)
     - [Exercise 1](#exercise-1)
     - [Exercise 2](#exercise-2)
+    - [Exercise 3](#exercise-3)
 
 ## Understanding the Date object
 
@@ -122,4 +123,24 @@ Calculate elapsed time between date1 and date 2 and between date1 and now.
 const date1 = 'August 17, 1986 03:24:00';
 const date2 = 'December 31, 2020 15:24:32';
 // Add code below
+```
+
+### Exercise 3
+
+```javascript
+// The days of the week are: "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+
+/**
+ *   Calculates the day of the week.
+ *
+ *   dateString: a date in MM/DD/YYYY format
+ *
+ *	Returns the date of the week in the format ex. Sunday
+ **/
+function getDayName(dateString) {
+  let dayName;
+  // Write your code here
+
+  return dayName;
+}
 ```
