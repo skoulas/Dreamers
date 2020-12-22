@@ -1,25 +1,11 @@
 # Exercises
 
 - [Exercises](#exercises)
-  - [Arrays Basics](#arrays-basics)
   - [Scope](#scope)
   - [Hard](#hard)
   - [Extra Hard](#extra-hard)
   - [Fun Part](#fun-part)
     - [We are Illuminati](#we-are-illuminati)
-
-## Arrays Basics
-
-Use a loop to iterate through the numbers 1 through 16. Push each number into fb, but push the string "fizz" in place of numbers divisible by 3, "buzz" in place of numbers divisible by 5, and "fizzbuzz" in place of numbers divisible by both 3 and 5.
-
-Log fb to the console to see the output.
-
-```javascript
-const fb = [];
-// ADD CODE HERE
-
-}
-```
 
 ## Scope
 
@@ -86,19 +72,6 @@ console.log(a);
 ```
 
 ## Hard
-
-Complete the function holidays that accepts an array of strings and iterates through the array. If the array contains the string "October", return "Happy Halloween". Otherwise, return the string "Have a great day!". Do not use a variable to store the result that you are returning.
-
-```javascript
-function holidays(arr) {
-  // ADD CODE HERE
-}
-
-const months = ['April', 'May', 'June', 'October'];
-const animals = ['Cats', 'Dogs', 'Pigs'];
-console.log(holidays(months)); // should return:
-console.log(holidays(animals)); // should return:
-```
 
 Create a function multiplyAll that takes an unknown number of integer arguments, multiplies them all together, and returns the result.
 
