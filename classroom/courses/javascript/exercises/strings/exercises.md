@@ -8,6 +8,8 @@
     - [Exercise 3](#exercise-3)
   - [.join()](#join)
     - [Exercise 1](#exercise-1-1)
+  - [Problems](#problems)
+    - [Exercise 1](#exercise-1-2)
 
 ## .split()
 
@@ -89,4 +91,27 @@ console.log(elementsBycoma); // expected output: "Fire,Air,Water"
 console.log(elementsJoined); // expected output: "FireAirWater"
 console.log(elementsBy); // expected output: "Fire-Air-Water"
 console.log(elementsByCross); // 'Wind + Water + Fire'
+```
+
+## Problems
+
+### Exercise 1
+
+First, print each vowel in on a new line. The English vowels are a, e, i, o, and u, and each vowel must be printed in the same order as it appeared in .
+Second, print each consonant (i.e., non-vowel) in on a new line in the same order as it appeared in .
+
+```javascript
+/**
+ *   Print your output using 'console.log()'.
+ *
+ *   s: consisting of lowercase English alphabetic letters (i.e., a through z)
+ *
+ **/
+function vowelsAndConsonants(s) {
+  // Add code below
+}
+```
+
+```javascript
+
 ```
