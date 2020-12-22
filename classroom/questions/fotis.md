@@ -14,3 +14,8 @@ Who let the dogs out????
 - Who ;
 - Who ;
 - Who ;
+
+## Objects
+
+- How to access a key - value to an object;
+- How to check a key value of an object is a number ;
