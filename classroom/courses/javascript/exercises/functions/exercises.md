@@ -5,7 +5,7 @@
   - [High Order Functions](#high-order-functions)
   - [Hard](#hard)
     - [Exercise 1](#exercise-1)
-    - [Functional basics](#functional-basics)
+    - [Functional Programming basics](#functional-programming-basics)
 
 ## Function Basics
 
@@ -129,7 +129,7 @@ function factorial(number) {
 }
 ```
 
-### Functional basics
+### Functional Programming basics
 
 ```javascript
 let people = [
