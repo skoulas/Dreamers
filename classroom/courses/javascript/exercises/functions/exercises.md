@@ -19,6 +19,8 @@ console.log(sayHello); // should log:
 console.log(sayHello()); // should log:
 console.log(sayHello(3)); // should log:
 console.log(sayHello('null')); // should log:
+console.log(sayHello(null)); // should log:
+console.log(sayHello(undefined)); // should log:
 ```
 
 ```javascript
