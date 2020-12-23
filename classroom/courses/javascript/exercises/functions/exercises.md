@@ -127,3 +127,27 @@ function factorial(number) {
   // Add code below
 }
 ```
+
+### Functional basics
+
+```javascript
+let people = [
+  { name: 'Alexandra', age: 26, loc: 'Athens' },
+  { name: 'Fotis', age: 33, loc: 'Athens' },
+  { name: 'Johannes', age: 28, loc: 'Vienna' },
+  { name: 'Johannes', age: 31, loc: 'Vienna' },
+  { name: 'Stelios', age: 32, loc: 'Thessaloniki' },
+  { name: 'Giorgos', age: 34, loc: 'Athens' },
+  { name: 'Johannes', age: 28, loc: 'Athens' },
+];
+
+let getPersonByCity;
+let getPersonByName;
+let getPersonByAge;
+
+let calculations = [getPersonByCity, getPersonByName, getPersonByAge];
+
+let person;
+
+console.log(person); // should return { name: 'Johannes', age: 28, loc: 'Vienna' },
+```
