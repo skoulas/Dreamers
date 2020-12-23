@@ -5,6 +5,7 @@
   - [High Order Functions](#high-order-functions)
   - [Hard](#hard)
     - [Exercise 1](#exercise-1)
+    - [Functional basics](#functional-basics)
 
 ## Function Basics
 
