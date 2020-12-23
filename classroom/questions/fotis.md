@@ -9,12 +9,6 @@
 
 - Difference between function declaration and function expression.
 
-Who let the dogs out????
-
-- Who ;
-- Who ;
-- Who ;
-
 ## Objects
 
 - How to access a key - value to an object;
@@ -24,3 +18,8 @@ Who let the dogs out????
 
 - When we dont define a function with var/const and let
   return into the global enviroment !!
+
+## Strings
+
+- How we convert a number to string and a string to number ?
+-
