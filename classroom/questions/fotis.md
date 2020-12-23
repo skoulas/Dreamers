@@ -19,3 +19,8 @@ Who let the dogs out????
 
 - How to access a key - value to an object;
 - How to check a key value of an object is a number ;
+
+## Functions
+
+- When we dont define a function with var/const and let
+  return into the global enviroment !!
