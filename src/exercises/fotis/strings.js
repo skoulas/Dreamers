@@ -1,8 +1,7 @@
-const tacos = 'i love tacos';
-// Add code below
-
-export function convertStringToAnArray(params) {
+export function convertStringToArray(params) {
   return params;
 }
 
-console.log(convertStringToAnArray(tacos)); // should log : ['i', 'love', 'tacos'];
+export function convertArrayToString(params) {
+  return params;
+}
