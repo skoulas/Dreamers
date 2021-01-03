@@ -22,3 +22,4 @@
 ## Strings
 
 - How we convert a number to string and a string to number ?
+- How we get the number of characters in a string ? //length
