@@ -1,61 +1,11 @@
 # Exercises
 
 - [Exercises](#exercises)
-  - [Function Basics](#function-basics)
   - [Scope](#scope)
-  - [Object Basics](#object-basics)
   - [Hard](#hard)
   - [Extra Hard](#extra-hard)
-  - [High Order Functions](#high-order-functions)
   - [Fun Part](#fun-part)
     - [We are Illuminati](#we-are-illuminati)
-
-## Function Basics
-
-After running the below code what will be displayed in the console.log / terminal?
-
-```javascript
-function sayHello(s) {
-  return 'Hi, ' + s;
-}
-
-console.log(sayHello); // should log:
-console.log(sayHello()); // should log:
-console.log(sayHello(3)); // should log:
-console.log(sayHello('null')); // should log:
-```
-
-```javascript
-const satellite = 'The Moon';
-const galaxy = 'The Milky Way';
-let stars = 'North Star';
-
-const callMyNightSky = () => {
-  stars = 'Sirius';
-
-  return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
-};
-
-console.log(callMyNightSky()); // should log:
-
-console.log(stars); // should log:
-```
-
-```javascript
-const isOdd = (num) => !!(num % 2);
-
-console.log(isOdd(5)); // should log:
-console.log(isOdd(2008)); // should log:
-```
-
-```javascript
-function addN(arr, n) {
-  return arr.map((i) => i + n);
-}
-
-console.log(addN([1, 2, 3], 3)); // should return:
-console.log(addN([3, 4, 5], 2)); // should return:
-```
 
 ## Scope
 
@@ -121,44 +71,16 @@ if (true) {
 console.log(a);
 ```
 
-## Object Basics
-
-GreenEnergy ships have fuel type avocado oil
-Ships that have disabled property true are remotely disabled.
-
-```javascript
-let spaceship = {
-  'Fuel Type': 'Turbo Fuel',
-  homePlanet: 'Earth',
-};
-
-function greenEnergy(sp) {
-  // add code here
-}
-
-function remotelyDisable(sp) {
-  // add code here
-}
-
-greenEnergy(spaceship);
-remotelyDisable(spaceship);
-
-console.log(spaceship);
-```
-
 ## Hard
 
-Complete the function holidays that accepts an array of strings and iterates through the array. If the array contains the string "October", return "Happy Halloween". Otherwise, return the string "Have a great day!". Do not use a variable to store the result that you are returning.
+Create a function multiplyAll that takes an unknown number of integer arguments, multiplies them all together, and returns the result.
 
 ```javascript
-function holidays(arr) {
+function multiplyAll(...args) {
   // ADD CODE HERE
 }
-
-const months = ['April', 'May', 'June', 'October'];
-const animals = ['Cats', 'Dogs', 'Pigs'];
-console.log(holidays(months)); // should return:
-console.log(holidays(animals)); // should return:
+console.log(multiplyAll(9, 4, 5, 6, 7, 2, 1, 8, 3)); // should log: 362880
+console.log(multiplyAll(5, 5, 5, 3)); // should log: 375
 ```
 
 Write a function mergingElements which adds each element in array1 to the corresponding element of array2 and returns the new array.
@@ -193,6 +115,16 @@ function imAboutToExplodeWithExcitement(n) {
 imAboutToExplodeWithExcitement(10); // expected log 10, 9, 8, 7, 6, 'Oh wow, I can't handle the anticipation!', 4, I'm about to explode with excitement!', 2, 1, 'That was kind of a let down'
 ```
 
+Using a loop, write a function getTheRange which finds the range (difference between high and low) of arr. The value returned should be an array with the low, high, and range.
+
+```javascript
+function getTheRange(arr) {
+  // ADD CODE HERE
+}
+
+console.log(getTheRange([3, 2, 5, 4, 7, 9, 10])); // expect log [2, 10, 8]
+```
+
 write a function closestToTheMark that takes two player inputs as number arguments. The function will return 'Player 1 is closest' or 'Player 2 is closest' depending on which player input is closest to the randomly generated number.
 
 ```javascript
@@ -205,35 +137,18 @@ function closestToTheMark(player1, player2) {
 console.log(closestToTheMark(25, 75));
 ```
 
+Write a function arrayBuilder that takes in a count object and returns an array filled with the appropriate numbers of elements. The order of the elements in the array does not matter, but repeated elements should be grouped.
+
+```javascript
+function arrayBuilder(obj) {
+  // ADD CODE HERE
+}
+
+console.log(arrayBuilder({ cats: 2, dogs: 1 })); // => ['cats', 'cats', 'dogs']
+console.log(arrayBuilder({})); // => []
+```
+
 ## Extra Hard
-
-Using a loop, write a function getTheRange which finds the range (difference between high and low) of arr. The value returned should be an array with the low, high, and range.
-
-```javascript
-function getTheRange(arr) {
-  // ADD CODE HERE
-}
-
-console.log(getTheRange([3, 2, 5, 4, 7, 9, 10])); // expect log [2, 10, 8]
-```
-
-Create a function multiplyAll that takes an unknown number of integer arguments, multiplies them all together, and returns the result.
-
-```javascript
-console.log(multiplyAll(9, 4, 5, 6, 7, 2, 1, 8, 3)); // should log: 362880
-console.log(multiplyAll(5, 5, 5, 3)); // should log: 375
-```
-
-Write a function mergingTripletsAndQuints which adds the corresponding element from array2 if the element from array1 is divisible by 3 or 5 and returns the new array.
-
-```javascript
-function mergingTripletsAndQuints(array1, array2) {
-  // ADD CODE HERE
-}
-
-console.log(mergingTripletsAndQuints([1, 2, 3, 4, 5, 15], [1, 3, 6, 7, 8, 9])); // expected log [1, 2, 9, 4, 13, 24]
-console.log(mergingTripletsAndQuints([1, 1, 3, 9, 5, 15], [1, 2, 3, 4, 5, 6])); // expected log [1, 1, 6, 13, 10, 21]
-```
 
 Using an IF/ELSE statement, write a function closestToTheMark that takes two player inputs as number arguments. The function will return 'Player 1 is closest' or 'Player 2 is closest' depending on which player input is closest to the randomly generated number.
 
@@ -250,60 +165,16 @@ function closestToTheMark(player1, player2) {
 console.log(closestToTheMark(25, 75));
 ```
 
-## High Order Functions
-
-1. Can you explain what the below code does?
-2. Can you explain why we created the below functions?
-3. Convert it to es6 syntax!
+Write a function disemvowel that takes in a string and returns a new string with all vowels removed.
 
 ```javascript
-// ES5 version
-var characters = [
-  {
-    name: 'Luke Skywalker',
-    img: 'http://example.com/img/luke.jpg',
-    species: 'human',
-  },
-  { name: 'Han Solo', img: 'http://example.com/img/han.jpg', species: 'human' },
-  {
-    name: 'Leia Organa',
-    img: 'http://example.com/img/leia.jpg',
-    species: 'human',
-  },
-  {
-    name: 'Chewbacca',
-    img: 'http://example.com/img/chewie.jpg',
-    species: 'wookie',
-  },
-];
-
-var humans = function (data) {
-  return data.filter(function (character) {
-    return character.species === 'human';
-  });
-};
-
-var images = function (data) {
-  return data.map(function (character) {
-    return character.img;
-  });
-};
-
-function compose(func1, func2) {
-  return function (data) {
-    return func2(func1(data));
-  };
+function disemvowel(string) {
+  // ADD CODE HERE
 }
 
-var displayCharacterImages = compose(humans, images);
-
-console.log(displayCharacterImages(characters));
-/* Logs out the following array
-   [ "http://example.com/img/luke.jpg",
-     "http://example.com/img/han.jpg",
-     "http://example.com/img/leia.jpg"
-   ]
-*/
+console.log(disemvowel('CodeSmith')); // => 'CdSmth'
+console.log(disemvowel('BANANA')); // => 'BNN'
+console.log(disemvowel('hello world')); // => 'hll wrld'
 ```
 
 ## Fun Part

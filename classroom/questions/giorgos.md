@@ -14,6 +14,7 @@
 - Trying to understand `w = w + 1` from a math perspective?
 - How can a space be added with string concatenation?
 - Why should we use template literals?
+- How to check if something is an array in JavaScript?
 
 ## Functions
 

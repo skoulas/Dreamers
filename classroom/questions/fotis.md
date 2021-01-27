@@ -9,8 +9,17 @@
 
 - Difference between function declaration and function expression.
 
-Who let the dogs out????
+## Objects
 
-- Who ;
-- Who ;
-- Who ;
+- How to access a key - value to an object;
+- How to check a key value of an object is a number ;
+
+## Functions
+
+- When we dont define a function with var/const and let
+  return into the global enviroment !!
+
+## Strings
+
+- How we convert a number to string and a string to number ?
+- How we get the number of characters in a string ? //length
