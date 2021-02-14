@@ -3,6 +3,8 @@ import {
   carTaxableBandDetails,
 } from './carValueTaxRate';
 
+import { carculator } from '../../../testing/carculator/carculator';
+
 describe('getCarTaxFromTaxableValue function', () => {
   test('it should return correct getCarTaxFromTaxableValue', () => {
     const testCases = [
@@ -59,9 +61,7 @@ describe('getCarTaxFromTaxableValue function', () => {
     ];
 
     testCases.forEach((testCase) => {
-      expect(getCarTaxFromTaxableValue(testCase.taxableValue)).toBe(
-        testCase.result
-      );
+      expect(carculator(testCase.taxableValue)).toBe(testCase.result);
     });
   });
 });
