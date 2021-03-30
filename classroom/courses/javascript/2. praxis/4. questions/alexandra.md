@@ -12,6 +12,5 @@
 ## Increments (++ Operator)
 
 - let i = 3 ;
-  let x = i++ // 3
-  let x = ++i // 4
-  O logos pou ginetai auto einai oti ginetai i praxi sto telos !
+  let x = i++ // 3 ?
+  let x = ++i // 4 ?
