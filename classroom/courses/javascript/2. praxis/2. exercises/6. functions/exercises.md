@@ -3,9 +3,10 @@
 - [Functions](#functions)
   - [Function Basics](#function-basics)
   - [High Order Functions](#high-order-functions)
+    - [Find Johnny](#find-johnny)
+    - [Operations on an array](#operations-on-an-array)
   - [Hard](#hard)
     - [Exercise 1](#exercise-1)
-    - [Functional Programming basics](#functional-programming-basics)
 
 ## Function Basics
 
@@ -110,26 +111,7 @@ console.log(displayCharacterImages(characters));
 */
 ```
 
-## Hard
-
-### Exercise 1
-
-Implement a function named factorial that has one parameter: an integer, . It must return the value of factorial.
-
-```javascript
-/**
- *   Calculate the area of a rectangle.
- *
- *   number: an integer.
- *
- *	Returns the factorial of the given number
- **/
-function factorial(number) {
-  // Add code below
-}
-```
-
-### Functional Programming basics
+### Find Johnny
 
 ```javascript
 let people = [
@@ -151,4 +133,73 @@ let calculations = [getPersonByCity, getPersonByName, getPersonByAge];
 let person;
 
 console.log(person); // should return { name: 'Johannes', age: 28, loc: 'Vienna' },
+```
+
+### Operations on an array
+
+Given a numbers array and an array of mini functions i want to call those functions against the given array.
+
+```javascript
+let numbers = [0, 1, 2, 3, 4, 5];
+
+let multiplyByTwo = (num) => num * 2;
+let divideByTwo = (num) => num / 2;
+let addOne = (num) => num + 1;
+let removeOne = (num) => num - 1;
+let addJohannes = (num) => num + ' Jo';
+let removeJohannes = (str) => str.split(' ')[0] * 1;
+
+let calculations = [
+  addOne,
+  removeOne,
+  multiplyByTwo,
+  divideByTwo,
+  addJohannes,
+  removeJohannes,
+];
+
+// let arrayParser = (array, instructions) => {
+//     const result = [];
+//     for (let i = 0; i < array.length; i++) {
+//         result.push(instructions(array[i]));
+//     }
+//     return result;
+// }
+
+// let calculator = (arr, cbArray) => {
+//     let result = [...arr];
+//     for (let i = 0; i < cbArray.length; i++) {
+//         result = arrayParser(result, cbArray[i]);
+//     }
+//     return result;
+// }
+
+let arrayParser = (array, instructions) => {
+  return array.map((el) => instructions(el));
+};
+
+let calculator = (arr, cbs) => {
+  return cbs.reduce((acc, cb) => arrayParser(acc, cb), arr);
+};
+
+console.log(calculator(numbers, calculations));
+```
+
+## Hard
+
+### Exercise 1
+
+Implement a function named factorial that has one parameter: an integer, . It must return the value of factorial.
+
+```javascript
+/**
+ *   Calculate the area of a rectangle.
+ *
+ *   number: an integer.
+ *
+ *	Returns the factorial of the given number
+ **/
+function factorial(number) {
+  // Add code below
+}
 ```
